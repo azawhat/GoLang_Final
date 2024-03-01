@@ -1,0 +1,51 @@
+/* Container for Cards */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: box-shadow 0.3s;
+    height: 550px;
+}
+
+/* Additional Courses Heading */
+.add {
+    padding-bottom: 35px;
+}
+
+/* Card Hover Effect */
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Card Image */
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+/* Card Body Styling */
+.card-body {
+    padding: 15px;
+}
+
+/* Card Title Styling */
+.card-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Button Styling */
+.btn-secondary {
+    background-color: #6c757d;
+    color: #ffffff;
+    border: none;
+    margin-top: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Button Hover Effect */
+.btn-secondary:hover {
+    background-color: #5a6268;
+}
