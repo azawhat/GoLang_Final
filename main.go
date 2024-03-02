@@ -111,7 +111,7 @@ func seq(start, end int) []int {
 }
 
 func main() {
-	dsn := "user=golang_database_user password=BULBWrjOPjKObyIy3aZzcEeOzovz5FaW dbname=golang_database sslmode=require port=5432 host=dpg-cnhc65icn0vc73dekkj0-a"
+	dsn := "user=backend_project_kk0h_user password=VSBJ7sEtKlM7W4djHuOga4d725Fbd5np dbname=backend_project_kk0h sslmode=require port=5432 host=dpg-cna9efda73kc73em5agg-a"
 	db, err := gorm.Open(postgres.Open(dsn), &gorm.Config{})
 	if err != nil {
 		logger.WithFields(logrus.Fields{
